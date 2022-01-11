@@ -1,0 +1,19 @@
+#mobject{
+	width:100px;
+	height:100px;
+	background:blue;
+	animation-name: moveSquare;
+	animation-duration:5s;
+	animation-delay:2s;
+	position:relative;
+	animation-iteration-count:infinite;
+
+}
+@keyframes moveSquare{
+	
+    0%{top : 0px; left: 0px;}
+    25%{top: 0px; left: 400px;}
+    50%{top: 300px; left: 400px;}
+    75%{top: 300px; left: 0px;}
+    100%{top : 0px; left: 0px;}
+}
